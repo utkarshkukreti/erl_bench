@@ -1,0 +1,9 @@
+%% -*- erlang -*-
+{application, erl_bench,
+ [{description, "Library that provide common code for all erlang web frameworks tested at techempower.com/benchmarks."},
+  {vsn, "0.0.1"},
+  {modules, []},
+  {registered, []},
+  {mod, {erl_bench_app, []}},
+  {env, []},
+  {applications, [kernel, stdlib, crypto, emysql]}]}.
